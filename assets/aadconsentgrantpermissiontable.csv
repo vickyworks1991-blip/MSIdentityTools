@@ -49,9 +49,11 @@ Application,RoleManagement.ReadWrite.Directory,High,BroadImpact
 Application,User.ReadWrite.All,High,BroadImpact
 Application,User.ManageCreds.All,High,BroadImpact
 Application,CallRecords.Read.All,High,SensitiveData
+Application,Group.Read.All,High,SensitiveData
 Delegated,User.Read,Low,Common pattern
 Delegated,User.ReadBasic.All,Low,Common pattern
 Delegated,openid,Low,Common pattern
 Delegated,email,Low,Common pattern
 Delegated,profile,Low,Common pattern
 Delegated,offline_access,Low,Common pattern when used with other low permissions
+
